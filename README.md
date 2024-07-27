@@ -2,6 +2,11 @@
 This project is my makeshift copy of wireshark.
 It opens a raw socket on an Ethernet device and sniffs packets on it.
 
+## Usage
+```bash
+sudo -E python3 sniffer.py
+```
+
 ## Supported protocols
 The sniffer can parse Ethernet, ARP, IP and ICMP packets.
 Each protocol's specification is under the `protocols` directory.
